@@ -21,6 +21,10 @@
 // @include respond (phone){
 //     transform:  skewX(0);
 // }
+@include respond(phone){
+    transform: skewX(0);
+    width: 70%;
+}
    
 
     &__shape{
@@ -49,11 +53,11 @@
     }
     &__text{ 
         transform: skewX(12deg);
-        // @include respond(Phone){
-        //     transform:   skewX(0) ;
-        // }
-        
        
+        
+       @include respond(phone){
+        transform: skewX(0);
+       }
 
 
     }
